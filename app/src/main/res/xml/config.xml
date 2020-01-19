@@ -1,0 +1,3 @@
+<feature name="proxy">
+    <param name="android-package" value="cn.inu1255.cordova.proxy.Proxy" />
+</feature>

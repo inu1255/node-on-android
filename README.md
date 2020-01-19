@@ -156,7 +156,7 @@ The app will show up in your app list as "Node On Android". You can also launch 
 
 ```
 adb shell
-am start -n com.mafintosh.nodeonandroid/com.mafintosh.nodeonandroid.MainActivity
+am start -n cn.inu1255.soulsign/cn.inu1255.soulsign.MainActivity
 ```
 
 ## License

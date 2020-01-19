@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width,initial-scale=1.0")
+    title Soulsign
+    script(src="index.js")
+  body
+    h1 Soulsign
+    div
+      button(onclick="start('http://127.0.0.1:"+proxyport+"')") 启动
+    div
+      button(onclick="start('http://192.168.1.102:8888')") 启动 http://192.168.1.102:8888
+    div
+      button(onclick="stop()") 停止
+    div
+      button(onclick="installCert()") 证书

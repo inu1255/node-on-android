@@ -11,7 +11,7 @@
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_mafintosh_nodeonandroid_NodeService_startNode(JNIEnv *env, jobject instance, jobjectArray args) {
+Java_cn_inu1255_soulsign_NodeService_startNode(JNIEnv *env, jobject instance, jobjectArray args) {
 
     nodeonandroid::redirectStreamsToPipe();
     nodeonandroid::startLoggingFromPipe();
